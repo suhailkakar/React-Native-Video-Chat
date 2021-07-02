@@ -11,3 +11,152 @@
 * [React Native](https://reactnative.dev/)
 * [ConnectyCube](https://connectycube.com/)
 * [React Navigation](https://reactnavigation.org/)
+
+
+### Folder Structure
+```
+📦  React-Native-Video-Chat
+├── android
+│   ├── app
+│   │   ├── BUCK
+│   │   ├── build_defs.bzl
+│   │   ├── build.gradle
+│   │   ├── debug.keystore
+│   │   ├── proguard-rules.pro
+│   │   └── src
+│   │       ├── debug
+│   │       │   └── AndroidManifest.xml
+│   │       └── main
+│   │           ├── AndroidManifest.xml
+│   │           ├── java
+│   │           │   └── com
+│   │           │       └── rnvideochat
+│   │           │           ├── AppMainActivity.java
+│   │           │           ├── MainActivity.java
+│   │           │           └── MainApplication.java
+│   │           └── res
+│   │               ├── drawable
+│   │               │   ├── ic_launcher.png
+│   │               │   └── splash_screen.xml
+│   │               ├── mipmap-hdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-mdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-xhdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-xxhdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               ├── mipmap-xxxhdpi
+│   │               │   ├── ic_launcher.png
+│   │               │   └── ic_launcher_round.png
+│   │               └── values
+│   │                   ├── colors.xml
+│   │                   ├── strings.xml
+│   │                   └── styles.xml
+│   ├── build.gradle
+│   ├── gradle
+│   │   └── wrapper
+│   │       ├── gradle-wrapper.jar
+│   │       └── gradle-wrapper.properties
+│   ├── gradle.properties
+│   ├── gradlew
+│   ├── gradlew.bat
+│   └── settings.gradle
+├── App.js
+├── app.json
+├── assets
+│   ├── android
+│   │   ├── drawable-hdpi
+│   │   │   └── ic_launcher.png
+│   │   ├── drawable-mdpi
+│   │   │   └── ic_launcher.png
+│   │   ├── drawable-xhdpi
+│   │   │   └── ic_launcher.png
+│   │   ├── drawable-xxhdpi
+│   │   │   └── ic_launcher.png
+│   │   └── drawable-xxxhdpi
+│   │       └── ic_launcher.png
+│   ├── iOS
+│   │   ├── 1024.png
+│   │   ├── 114.png
+│   │   ├── 120.png
+│   │   ├── 180.png
+│   │   ├── 29.png
+│   │   ├── 40.png
+│   │   ├── 57.png
+│   │   ├── 58.png
+│   │   ├── 60.png
+│   │   ├── 80.png
+│   │   └── 87.png
+│   ├── logo.png
+│   ├── sounds
+│   │   ├── calling.mp3
+│   │   ├── dialing.mp3
+│   │   └── end_call.mp3
+│   └── splash.png
+├── babel.config.js
+├── index.js
+├── ios
+│   ├── Podfile
+│   ├── Podfile.lock
+│   ├── RNVideoChat
+│   │   ├── AppDelegate.h
+│   │   ├── AppDelegate.m
+│   │   ├── Base.lproj
+│   │   │   └── LaunchScreen.xib
+│   │   ├── Images.xcassets
+│   │   │   ├── AppIcon.appiconset
+│   │   │   │   ├── 1024.png
+│   │   │   │   ├── 120-1.png
+│   │   │   │   ├── 120.png
+│   │   │   │   ├── 180.png
+│   │   │   │   ├── 40.png
+│   │   │   │   ├── 58.png
+│   │   │   │   ├── 60.png
+│   │   │   │   ├── 80.png
+│   │   │   │   ├── 87.png
+│   │   │   │   └── Contents.json
+│   │   │   └── Contents.json
+│   │   ├── Info.plist
+│   │   └── main.m
+│   ├── RNVideoChatTests
+│   │   ├── Info.plist
+│   │   └── RNVideoChatTests.m
+│   ├── RNVideoChat.xcodeproj
+│   │   ├── project.pbxproj
+│   │   └── xcshareddata
+│   │       └── xcschemes
+│   │           └── RNVideoChat.xcscheme
+│   └── RNVideoChat.xcworkspace
+│       ├── contents.xcworkspacedata
+│       └── xcshareddata
+│           └── IDEWorkspaceChecks.plist
+├── metro.config.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── src
+│   ├── components
+│   │   ├── AuthScreen
+│   │   │   └── index.js
+│   │   └── VideoScreen
+│   │       ├── CallingLoader.js
+│   │       ├── index.js
+│   │       ├── RTCViewGrid.js
+│   │       ├── ToolBar.js
+│   │       └── UsersSelect.js
+│   ├── config.js
+│   ├── navigator.js
+│   └── services
+│       ├── auth-service.js
+│       ├── call-service.js
+│       └── index.js
+└── __tests__
+    └── App-test.js
+
+
+```
